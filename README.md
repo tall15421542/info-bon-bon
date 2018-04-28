@@ -1,4 +1,6 @@
 # info-bon-bon
+It is a server program providing anonymous chat service. Most speciall of all, it allows user define their own filter!
+The program would follow the filter function to match users, and create connection between users in miss match!
 ## Usage
 ### Start up server first
 ```
@@ -54,3 +56,7 @@ If the client succesfully connect to server, it would print
 [/t （嘗試匹配）]  [/c （結束網路連線）]
 ```
 Then we can play with info-bon-bon chat system!
+## More detailed spec
+```
+https://systemprogrammingatntu.github.io/MP4
+```
