@@ -42,7 +42,9 @@ Otherwise, return an non-zero number.
 ```
 cd test
 npm install
+```
 ### STEP 3 - Connect to server
+```
 node client.js [ip] [port]
 ```
 If the client succesfully connect to server, it would print
