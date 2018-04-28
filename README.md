@@ -9,7 +9,7 @@ make
 It will create an inf-bonbon-server in 0.0.0.0:[port]
 
 ## Testing(Provided by the TA of system programming class)
-### STEP 1 - Configure the client info
+### STEP 1 - Configure the client infomation
 ```
 cd test
 vim info.json
@@ -36,8 +36,8 @@ struct User {
 	char introduction[1025]
 };
 ```
-if the other client does not pass the filter, return 0;   
-otherwise, return an non-zero number.   
+If the other client does not pass the filter, return 0;   
+Otherwise, return an non-zero number.   
 ### STEP 2 - npm install
 ```
 cd test
@@ -45,7 +45,7 @@ npm install
 ### STEP 3 - Connect to server
 node client.js [ip] [port]
 ```
-if the client succesfully connect to server, it would print
+If the client succesfully connect to server, it would print
 ```
 已連上伺服器。
 請輸入下一步命令
